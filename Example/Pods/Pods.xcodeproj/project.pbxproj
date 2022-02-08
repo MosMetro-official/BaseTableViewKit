@@ -103,7 +103,7 @@
 		2ADD229979FDDFBD00F0E1F29B8188B3 /* TitleHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleHeaderView.swift; path = BaseTableViewKit/Classes/HeaderView/TitleHeaderView.swift; sourceTree = "<group>"; };
 		331EA8C58FAD92533AE645519E16F2D0 /* Pods-BaseTableViewKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaseTableViewKit_Example.modulemap"; sourceTree = "<group>"; };
 		35EE618EEF985ACACFD36B501B8154FD /* SafeIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafeIndex.swift; path = BaseTableViewKit/Classes/Extensions/SafeIndex.swift; sourceTree = "<group>"; };
-		3A2B30A224DDBC88EF52CB0DA4799E89 /* Pods-BaseTableViewKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BaseTableViewKit_Example"; path = Pods_BaseTableViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2B30A224DDBC88EF52CB0DA4799E89 /* Pods_BaseTableViewKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseTableViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF6E4B424A821CF44828284F2C4799B /* DifferenceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DifferenceKit.debug.xcconfig; sourceTree = "<group>"; };
 		3FF7607AAA151CF99463A009E9F1F057 /* ArraySection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArraySection.swift; path = Sources/ArraySection.swift; sourceTree = "<group>"; };
 		42CD98D37955A74E9DABBC53D34B7300 /* Pods-BaseTableViewKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaseTableViewKit_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		4A4A65A23AD4109CCD5F7EBFE8659823 /* Ext + UITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext + UITableViewCell.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext + UITableViewCell.swift"; sourceTree = "<group>"; };
 		4A7254CC9C1490BF2056F7120EC54743 /* Algorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Algorithm.swift; path = Sources/Algorithm.swift; sourceTree = "<group>"; };
 		4AF3A2054072728529389F59DFD630BD /* Ext + UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext + UIFont.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext + UIFont.swift"; sourceTree = "<group>"; };
-		50AF08E89440FB61F761EF6D501CC31E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		50AF08E89440FB61F761EF6D501CC31E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		54645FA96EAF2A7B6A36C5AB377C07C8 /* Pods-BaseTableViewKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseTableViewKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58E26DEA8BCCE6A2F405042034804FDA /* DifferentiableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DifferentiableSection.swift; path = Sources/DifferentiableSection.swift; sourceTree = "<group>"; };
 		5FE0F56E330F9840A0F0FE1DA443413B /* StagedChangeset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StagedChangeset.swift; path = Sources/StagedChangeset.swift; sourceTree = "<group>"; };
@@ -125,9 +125,9 @@
 		67DD5D1741ECA731993EFF88BC54C487 /* Pods-BaseTableViewKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaseTableViewKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		7262353061687AF9BF4FB47ED87DA7B6 /* Differentiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Differentiable.swift; path = Sources/Differentiable.swift; sourceTree = "<group>"; };
 		779508A40ABB8D3BBCE6AD767DDAEE94 /* Pods-BaseTableViewKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseTableViewKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		77C2624173A67D40E98FE70CCBF3C633 /* BaseTableViewKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaseTableViewKit; path = BaseTableViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C2624173A67D40E98FE70CCBF3C633 /* BaseTableViewKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseTableViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7970BCE054C71C791A68A81821B38B51 /* BaseFooterView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BaseFooterView.xib; path = BaseTableViewKit/Classes/FooterView/BaseFooterView.xib; sourceTree = "<group>"; };
-		797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DifferenceKit; path = DifferenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DifferenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A49F0A5623FC370904BE22B4E758A35 /* BaseTableViewKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseTableViewKit.debug.xcconfig; sourceTree = "<group>"; };
 		7AF8A06704B5CA3D6FAD55854F266ACD /* CellData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellData.swift; path = BaseTableViewKit/Classes/Data/CellData.swift; sourceTree = "<group>"; };
 		7BEEEA5D3FE821BEFCBAE1D83C9325AD /* Pods-BaseTableViewKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaseTableViewKit_Tests.modulemap"; sourceTree = "<group>"; };
@@ -138,10 +138,10 @@
 		9142146382A7EB6A2192A8150EF671BD /* Pods-BaseTableViewKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaseTableViewKit_Example-dummy.m"; sourceTree = "<group>"; };
 		93FBE443B882EA1E61CFAC96DE07CD42 /* ErrorDataProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorDataProtocol.swift; path = BaseTableViewKit/Classes/Protocols/ErrorDataProtocol.swift; sourceTree = "<group>"; };
 		9989282604A5352073F3A3BB3D03FE8B /* StandartImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandartImageCell.swift; path = BaseTableViewKit/Classes/Cells/StandartImageCell.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6DD39A7528F1812ED6CEF99334A5593 /* DifferenceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DifferenceKit-prefix.pch"; sourceTree = "<group>"; };
 		A71CA4D1DDA0048946E1CC8AA51D6A80 /* ElementPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementPath.swift; path = Sources/ElementPath.swift; sourceTree = "<group>"; };
-		A9724CDD0BE7D2AD5F6B3570009F29D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A9724CDD0BE7D2AD5F6B3570009F29D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AA16057181ABA083012F683C96A797F1 /* Ext + Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext + Bundle.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext + Bundle.swift"; sourceTree = "<group>"; };
 		ABB83C5905567A7E11EECA4F3D036C7A /* Pods-BaseTableViewKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaseTableViewKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		AFEC737DE6CEFF978889F7F45E0940C6 /* Pods-BaseTableViewKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseTableViewKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -150,10 +150,10 @@
 		B4DAC0668B7F9CB1FF98C64D5C363154 /* BaseTableViewKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseTableViewKit.release.xcconfig; sourceTree = "<group>"; };
 		B69F3BDA6D4B7DFCBCEA939D76B42052 /* BaseTableViewKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseTableViewKit-umbrella.h"; sourceTree = "<group>"; };
 		BED1F6286B0989BA13AD7511AE7CB05C /* BaseTableViewKit-BaseTableViewKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BaseTableViewKit-BaseTableViewKit"; path = BaseTableViewKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C31D419D705E7D00CE872D8B41EA748D /* BaseTableViewKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BaseTableViewKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C31D419D705E7D00CE872D8B41EA748D /* BaseTableViewKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BaseTableViewKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C61B05DA7532927524DCD840AD878F24 /* BaseFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseFooterView.swift; path = BaseTableViewKit/Classes/FooterView/BaseFooterView.swift; sourceTree = "<group>"; };
 		CB3408D268A8001A62CD1AE219AC2F33 /* Pods-BaseTableViewKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseTableViewKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF9CB7D4E8EA1848E0BD7E7577194BA9 /* Pods-BaseTableViewKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BaseTableViewKit_Tests"; path = Pods_BaseTableViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9CB7D4E8EA1848E0BD7E7577194BA9 /* Pods_BaseTableViewKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseTableViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D168786F6568DD6BEF2B4834EF2CEB45 /* Pods-BaseTableViewKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaseTableViewKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D3C41BF535247F133187A6404A43FAE0 /* TitleHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TitleHeaderView.xib; path = BaseTableViewKit/Classes/HeaderView/TitleHeaderView.xib; sourceTree = "<group>"; };
@@ -213,11 +213,11 @@
 		05361B67D77BF33E16D376F7B0C3327D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77C2624173A67D40E98FE70CCBF3C633 /* BaseTableViewKit */,
+				77C2624173A67D40E98FE70CCBF3C633 /* BaseTableViewKit.framework */,
 				BED1F6286B0989BA13AD7511AE7CB05C /* BaseTableViewKit-BaseTableViewKit */,
-				797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit */,
-				3A2B30A224DDBC88EF52CB0DA4799E89 /* Pods-BaseTableViewKit_Example */,
-				CF9CB7D4E8EA1848E0BD7E7577194BA9 /* Pods-BaseTableViewKit_Tests */,
+				797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit.framework */,
+				3A2B30A224DDBC88EF52CB0DA4799E89 /* Pods_BaseTableViewKit_Example.framework */,
+				CF9CB7D4E8EA1848E0BD7E7577194BA9 /* Pods_BaseTableViewKit_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,7 +263,6 @@
 				75D80FE4D095C889E02787F54A912F34 /* Support Files */,
 				AB24D5B2367E4FAC6704A4EA38F2970A /* UIKitExtension */,
 			);
-			name = DifferenceKit;
 			path = DifferenceKit;
 			sourceTree = "<group>";
 		};
@@ -540,7 +539,7 @@
 			);
 			name = BaseTableViewKit;
 			productName = BaseTableViewKit;
-			productReference = 77C2624173A67D40E98FE70CCBF3C633 /* BaseTableViewKit */;
+			productReference = 77C2624173A67D40E98FE70CCBF3C633 /* BaseTableViewKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8FC6E51285E4FD828A61BEFD2100CD64 /* DifferenceKit */ = {
@@ -558,7 +557,7 @@
 			);
 			name = DifferenceKit;
 			productName = DifferenceKit;
-			productReference = 797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit */;
+			productReference = 797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BC6849A08A05FA7D040D7D4DC7DCC077 /* Pods-BaseTableViewKit_Tests */ = {
@@ -577,7 +576,7 @@
 			);
 			name = "Pods-BaseTableViewKit_Tests";
 			productName = Pods_BaseTableViewKit_Tests;
-			productReference = CF9CB7D4E8EA1848E0BD7E7577194BA9 /* Pods-BaseTableViewKit_Tests */;
+			productReference = CF9CB7D4E8EA1848E0BD7E7577194BA9 /* Pods_BaseTableViewKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D564508E365BFCA71FD225DB00391C12 /* Pods-BaseTableViewKit_Example */ = {
@@ -597,7 +596,7 @@
 			);
 			name = "Pods-BaseTableViewKit_Example";
 			productName = Pods_BaseTableViewKit_Example;
-			productReference = 3A2B30A224DDBC88EF52CB0DA4799E89 /* Pods-BaseTableViewKit_Example */;
+			productReference = 3A2B30A224DDBC88EF52CB0DA4799E89 /* Pods_BaseTableViewKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -607,7 +606,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1320;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -847,7 +846,6 @@
 			baseConfigurationReference = CB3408D268A8001A62CD1AE219AC2F33 /* Pods-BaseTableViewKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -913,7 +911,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E78FE7728E62C5DABF6E1FFFC76B383E /* DifferenceKit.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -925,7 +922,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DifferenceKit/DifferenceKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DifferenceKit/DifferenceKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DifferenceKit/DifferenceKit.modulemap";
 				PRODUCT_MODULE_NAME = DifferenceKit;
@@ -996,8 +993,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1007,7 +1003,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4DAC0668B7F9CB1FF98C64D5C363154 /* BaseTableViewKit.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1041,7 +1036,6 @@
 			baseConfigurationReference = 201C9742073F9B59B9823CB6B3E96366 /* Pods-BaseTableViewKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1075,7 +1069,6 @@
 			baseConfigurationReference = 54645FA96EAF2A7B6A36C5AB377C07C8 /* Pods-BaseTableViewKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1108,7 +1101,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A49F0A5623FC370904BE22B4E758A35 /* BaseTableViewKit.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1141,7 +1133,6 @@
 			baseConfigurationReference = 48D0A3B0FCF8190ACDBBD3EC3C1AF86C /* Pods-BaseTableViewKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1175,7 +1166,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AF6E4B424A821CF44828284F2C4799B /* DifferenceKit.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1187,7 +1177,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DifferenceKit/DifferenceKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DifferenceKit/DifferenceKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DifferenceKit/DifferenceKit.modulemap";
 				PRODUCT_MODULE_NAME = DifferenceKit;

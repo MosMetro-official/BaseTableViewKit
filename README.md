@@ -1,9 +1,8 @@
 # BaseTableViewKit
 
-[![CI Status](https://img.shields.io/travis/viacheslavplatonov/BaseTableViewKit.svg?style=flat)](https://travis-ci.org/viacheslavplatonov/BaseTableViewKit)
-[![Version](https://img.shields.io/cocoapods/v/BaseTableViewKit.svg?style=flat)](https://cocoapods.org/pods/BaseTableViewKit)
-[![License](https://img.shields.io/cocoapods/l/BaseTableViewKit.svg?style=flat)](https://cocoapods.org/pods/BaseTableViewKit)
-[![Platform](https://img.shields.io/cocoapods/p/BaseTableViewKit.svg?style=flat)](https://cocoapods.org/pods/BaseTableViewKit)
+DifferenceKit + architecture on the view states works wonders: 
+
+![hippo](https://media.giphy.com/media/Q13i7co9erkCg4CG84/giphy.gif)
 
 ## Example
 
@@ -17,12 +16,8 @@ BaseTableViewKit is available through [CocoaPods](https://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'BaseTableViewKit'
+pod 'BaseTableViewKit', :git => 'https://github.com/MosMetro-official/BaseTableViewKit'
 ```
-
-## Author
-
-viacheslavplatonov, slava.p12@yandex.ru
 
 ## License
 
