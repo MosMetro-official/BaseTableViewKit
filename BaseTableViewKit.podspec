@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     
     s.source_files = 'BaseTableViewKit/Classes/*.swift'
     s.resource_bundles = {
-        'BaseTableViewOriginal' => ['BaseTableViewKit/**/*.{xib,storyboard,xcassets}'] }
+        'BaseTableViewKit' => ['BaseTableViewKit/**/*.{xib,storyboard,xcassets}'] }
     #s.default_subspecs = '', ''
     
     

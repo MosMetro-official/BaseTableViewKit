@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9562305227B28FF0009B585B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562305127B28FF0009B585B /* MainView.swift */; };
 		D13C5A8B205F9BF910C0D6A3 /* Pods_BaseTableViewKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EAC840BE62F52FEAE919C0 /* Pods_BaseTableViewKit_Tests.framework */; };
 		DAC4A4528E6BC8B63E4A5FA2 /* Pods_BaseTableViewKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C713D0DABAB4F4C319DDC2CD /* Pods_BaseTableViewKit_Example.framework */; };
 /* End PBXBuildFile section */
@@ -40,13 +41,14 @@
 		607FACE51AFB9204008FA782 /* BaseTableViewKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseTableViewKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E44A07BAE4DF0505CC105C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7D4BDD2F0BA333562B01DE4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6E44A07BAE4DF0505CC105C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7D4BDD2F0BA333562B01DE4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8759DA069FFD4FE0A6BD2993 /* Pods-BaseTableViewKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseTableViewKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-BaseTableViewKit_Tests/Pods-BaseTableViewKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9562305127B28FF0009B585B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A26F488DD7F4336FB58ABC03 /* Pods-BaseTableViewKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseTableViewKit_Example.release.xcconfig"; path = "Target Support Files/Pods-BaseTableViewKit_Example/Pods-BaseTableViewKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B0EAC840BE62F52FEAE919C0 /* Pods_BaseTableViewKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseTableViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C713D0DABAB4F4C319DDC2CD /* Pods_BaseTableViewKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseTableViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40DA7EC14CECAE82165A7E5 /* BaseTableViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BaseTableViewKit.podspec; path = ../BaseTableViewKit.podspec; sourceTree = "<group>"; };
+		F40DA7EC14CECAE82165A7E5 /* BaseTableViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BaseTableViewKit.podspec; path = ../BaseTableViewKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				9562305127B28FF0009B585B /* MainView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -156,7 +159,6 @@
 				328E00FD50AA9C99C0866594 /* Pods-BaseTableViewKit_Tests.debug.xcconfig */,
 				8759DA069FFD4FE0A6BD2993 /* Pods-BaseTableViewKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -172,7 +174,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				CA99F55820BCD40F9824D9C0 /* [CP] Embed Pods Frameworks */,
-				C8DD2F1E747E9C311BE01BB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -285,24 +287,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C8DD2F1E747E9C311BE01BB8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BaseTableViewKit_Example/Pods-BaseTableViewKit_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/BaseTableViewKit/BaseTableViewOriginal.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BaseTableViewOriginal.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseTableViewKit_Example/Pods-BaseTableViewKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CA99F55820BCD40F9824D9C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,10 +294,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BaseTableViewKit_Example/Pods-BaseTableViewKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BaseTableViewKit/BaseTableViewKit.framework",
 				"${BUILT_PRODUCTS_DIR}/DifferenceKit/DifferenceKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseTableViewKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DifferenceKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9562305227B28FF0009B585B /* MainView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BaseTableViewKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -513,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BaseTableViewKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

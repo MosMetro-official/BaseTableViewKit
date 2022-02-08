@@ -2,19 +2,25 @@ PODS:
   - BaseTableViewKit (0.1.0):
     - BaseTableViewKit/BaseTableView (= 0.1.0)
     - BaseTableViewKit/Cells (= 0.1.0)
+    - BaseTableViewKit/Data (= 0.1.0)
     - BaseTableViewKit/Extensions (= 0.1.0)
     - BaseTableViewKit/FooterView (= 0.1.0)
     - BaseTableViewKit/HeaderView (= 0.1.0)
+    - BaseTableViewKit/Protocols (= 0.1.0)
     - DifferenceKit
   - BaseTableViewKit/BaseTableView (0.1.0):
     - DifferenceKit
   - BaseTableViewKit/Cells (0.1.0):
+    - DifferenceKit
+  - BaseTableViewKit/Data (0.1.0):
     - DifferenceKit
   - BaseTableViewKit/Extensions (0.1.0):
     - DifferenceKit
   - BaseTableViewKit/FooterView (0.1.0):
     - DifferenceKit
   - BaseTableViewKit/HeaderView (0.1.0):
+    - DifferenceKit
+  - BaseTableViewKit/Protocols (0.1.0):
     - DifferenceKit
   - DifferenceKit (1.2.0):
     - DifferenceKit/Core (= 1.2.0)
@@ -36,7 +42,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseTableViewKit: 8b3c4b4371a0d3329013bc7852d10d157aed5bd1
+  BaseTableViewKit: 2aacda6e63568e88ee1c7efb70700f2991d715f0
   DifferenceKit: 5659c430bb7fe45876fa32ce5cba5d6167f0c805
 
 PODFILE CHECKSUM: ad50795dc776d72c5879cacc38d45f56fbfd1a8f
