@@ -1,5 +1,5 @@
 import XCTest
-import BaseTableViewKit
+
 
 class Tests: XCTestCase {
     

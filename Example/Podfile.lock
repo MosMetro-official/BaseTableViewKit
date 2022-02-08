@@ -1,0 +1,44 @@
+PODS:
+  - BaseTableViewKit (0.1.0):
+    - BaseTableViewKit/BaseTableView (= 0.1.0)
+    - BaseTableViewKit/Cells (= 0.1.0)
+    - BaseTableViewKit/Extensions (= 0.1.0)
+    - BaseTableViewKit/FooterView (= 0.1.0)
+    - BaseTableViewKit/HeaderView (= 0.1.0)
+    - DifferenceKit
+  - BaseTableViewKit/BaseTableView (0.1.0):
+    - DifferenceKit
+  - BaseTableViewKit/Cells (0.1.0):
+    - DifferenceKit
+  - BaseTableViewKit/Extensions (0.1.0):
+    - DifferenceKit
+  - BaseTableViewKit/FooterView (0.1.0):
+    - DifferenceKit
+  - BaseTableViewKit/HeaderView (0.1.0):
+    - DifferenceKit
+  - DifferenceKit (1.2.0):
+    - DifferenceKit/Core (= 1.2.0)
+    - DifferenceKit/UIKitExtension (= 1.2.0)
+  - DifferenceKit/Core (1.2.0)
+  - DifferenceKit/UIKitExtension (1.2.0):
+    - DifferenceKit/Core
+
+DEPENDENCIES:
+  - BaseTableViewKit (from `../`)
+  - DifferenceKit
+
+SPEC REPOS:
+  trunk:
+    - DifferenceKit
+
+EXTERNAL SOURCES:
+  BaseTableViewKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseTableViewKit: 8b3c4b4371a0d3329013bc7852d10d157aed5bd1
+  DifferenceKit: 5659c430bb7fe45876fa32ce5cba5d6167f0c805
+
+PODFILE CHECKSUM: ad50795dc776d72c5879cacc38d45f56fbfd1a8f
+
+COCOAPODS: 1.11.2
