@@ -8,8 +8,8 @@
 import UIKit
 
 public protocol _BaseFooterView {
-    var text: String { get set }
-    var attributedText: NSAttributedString? { get set }
+    var text: String { get }
+    var attributedText: NSAttributedString? { get }
     var isInsetGrouped: Bool { get }
 }
 

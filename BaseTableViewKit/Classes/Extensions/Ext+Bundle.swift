@@ -1,5 +1,5 @@
 //
-//  Ext + Bundle.swift
+//  Ext+Bundle.swift
 //  BaseTableViewKit
 //
 //  Created by Слава Платонов on 08.02.2022.
@@ -20,7 +20,6 @@ public extension Bundle {
               let resourceBundle = Bundle(url: resourceBundleURL) else {
             fatalError("\(moduleName).bundle not found in \(frameworkBundle)")
         }
-
         return resourceBundle
     }
 }

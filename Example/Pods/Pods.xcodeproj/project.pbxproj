@@ -14,7 +14,7 @@
 		2745D43BEF70BB9EA68D9B4AA4B5EED9 /* TitleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C41BF535247F133187A6404A43FAE0 /* TitleHeaderView.xib */; };
 		28646BF8BF50318D7F2831BEF0A845A7 /* TitleHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = D3C41BF535247F133187A6404A43FAE0 /* TitleHeaderView.xib */; };
 		2D173C97D4E971CE7B87E369E9B98322 /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8623D1997A61D4145064119B7735D1D8 /* SectionData.swift */; };
-		303118E508443F58552BFD301C15B182 /* Ext + UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A65A23AD4109CCD5F7EBFE8659823 /* Ext + UITableViewCell.swift */; };
+		303118E508443F58552BFD301C15B182 /* Ext+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A65A23AD4109CCD5F7EBFE8659823 /* Ext+UITableViewCell.swift */; };
 		366987990E59050DDCEC2D5AFA84A869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		38B3E9CC64A333A482689210AC5344AD /* DifferenceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A64A24172E9F184C43D6BA09E1AF0AB /* DifferenceKit-dummy.m */; };
 		422B27B0FF17B426C66C9EDF67CC6F7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
@@ -27,7 +27,7 @@
 		6B4501DC8DD2D6527E94EBE971CF5A12 /* ErrorDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FBE443B882EA1E61CFAC96DE07CD42 /* ErrorDataProtocol.swift */; };
 		6F43D2B6DAF3480276B3A89C0998F9E0 /* DifferenceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62023386F688C55B45281E555169133D /* DifferenceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70624E3A8C2192F7CDAC914B299C191B /* BaseFooterView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7970BCE054C71C791A68A81821B38B51 /* BaseFooterView.xib */; };
-		7D1CCA0C3105686BA65BE6DBA5D36F01 /* Ext + Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16057181ABA083012F683C96A797F1 /* Ext + Bundle.swift */; };
+		7D1CCA0C3105686BA65BE6DBA5D36F01 /* Ext+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16057181ABA083012F683C96A797F1 /* Ext+Bundle.swift */; };
 		7E680935CAEB09B0B2B75382E2E10F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		7FB7C00EB91D69CA94749530B24179A3 /* ContentEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB30B1E229BE787F4657B7D8509236 /* ContentEquatable.swift */; };
 		80D1E7EAC7C208B88BE40E19160E3D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
@@ -42,13 +42,13 @@
 		B7C691960A520B194F74FAC27F902EB7 /* Pods-BaseTableViewKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CD98D37955A74E9DABBC53D34B7300 /* Pods-BaseTableViewKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBD28B252A84E016F60D704442A0E35E /* StandartImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64EDFB5A607E7FB6F4B9C3BEB3917CE5 /* StandartImageCell.xib */; };
 		BDF872F58CA32EEBF05DD710772CD613 /* BaseTableViewKit-BaseTableViewKit in Resources */ = {isa = PBXBuildFile; fileRef = BED1F6286B0989BA13AD7511AE7CB05C /* BaseTableViewKit-BaseTableViewKit */; };
-		C5D0911FAB8E322567CE31BB2EB16187 /* Ext + UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3A2054072728529389F59DFD630BD /* Ext + UIFont.swift */; };
+		C5D0911FAB8E322567CE31BB2EB16187 /* Ext+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3A2054072728529389F59DFD630BD /* Ext+UIFont.swift */; };
 		C7B237E8E75D7A3D785F82ED031BB14B /* TitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD229979FDDFBD00F0E1F29B8188B3 /* TitleHeaderView.swift */; };
 		C9387D980F7D55994EC71CFB0B6845D4 /* ContentIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655BC5D0628A90F345AF34A8CA71E586 /* ContentIdentifiable.swift */; };
 		D62B4496AB503D324E9AC390FC3E1D38 /* DifferentiableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E26DEA8BCCE6A2F405042034804FDA /* DifferentiableSection.swift */; };
 		DB57858FBC17F54BE86BEC730D9E323F /* BaseFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B05DA7532927524DCD840AD878F24 /* BaseFooterView.swift */; };
 		DEA962D6B3C39CCDC5444EBEEEB92179 /* Changeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB89716857C0279CB55ECBF4EA3B697 /* Changeset.swift */; };
-		E1824415956009A672557D7284898039 /* Ext + UITableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F3BE7BEA4F68E5311C12128344622 /* Ext + UITableViewHeaderFooterView.swift */; };
+		E1824415956009A672557D7284898039 /* Ext+UITableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F3BE7BEA4F68E5311C12128344622 /* Ext+UITableViewHeaderFooterView.swift */; };
 		E5C9F13896E86BEB4D9B68C306670230 /* SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EE618EEF985ACACFD36B501B8154FD /* SafeIndex.swift */; };
 		E66FDD7DBAE7C2C738FC7993871FCF31 /* Pods-BaseTableViewKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9142146382A7EB6A2192A8150EF671BD /* Pods-BaseTableViewKit_Example-dummy.m */; };
 		EACA77EF6684F2423860F65F4C6BD3A8 /* StandartImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9989282604A5352073F3A3BB3D03FE8B /* StandartImageCell.swift */; };
@@ -96,7 +96,7 @@
 		069759DB8FE59AFE05308DEE51C5BF1E /* DifferenceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DifferenceKit.modulemap; sourceTree = "<group>"; };
 		08720015C7A564E7CC70CC6D2F4D1FF1 /* Pods-BaseTableViewKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaseTableViewKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0A64A24172E9F184C43D6BA09E1AF0AB /* DifferenceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DifferenceKit-dummy.m"; sourceTree = "<group>"; };
-		0B6F3BE7BEA4F68E5311C12128344622 /* Ext + UITableViewHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext + UITableViewHeaderFooterView.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext + UITableViewHeaderFooterView.swift"; sourceTree = "<group>"; };
+		0B6F3BE7BEA4F68E5311C12128344622 /* Ext+UITableViewHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext+UITableViewHeaderFooterView.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext+UITableViewHeaderFooterView.swift"; sourceTree = "<group>"; };
 		0E8C64AB62B7305F280D1074DD492134 /* UIKitExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtension.swift; path = Sources/Extensions/UIKitExtension.swift; sourceTree = "<group>"; };
 		201C9742073F9B59B9823CB6B3E96366 /* Pods-BaseTableViewKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseTableViewKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		265E29C5EAD91FBFF7E3402B4CDA1547 /* BaseTableViewKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseTableViewKit-prefix.pch"; sourceTree = "<group>"; };
@@ -110,9 +110,9 @@
 		44A05FDFBCBBD3DBDEB7C574866DB837 /* BaseTableViewKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseTableViewKit-dummy.m"; sourceTree = "<group>"; };
 		46AEFDF4107F824305D5BC0259479970 /* Pods-BaseTableViewKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseTableViewKit_Example-Info.plist"; sourceTree = "<group>"; };
 		48D0A3B0FCF8190ACDBBD3EC3C1AF86C /* Pods-BaseTableViewKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseTableViewKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4A4A65A23AD4109CCD5F7EBFE8659823 /* Ext + UITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext + UITableViewCell.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext + UITableViewCell.swift"; sourceTree = "<group>"; };
+		4A4A65A23AD4109CCD5F7EBFE8659823 /* Ext+UITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext+UITableViewCell.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext+UITableViewCell.swift"; sourceTree = "<group>"; };
 		4A7254CC9C1490BF2056F7120EC54743 /* Algorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Algorithm.swift; path = Sources/Algorithm.swift; sourceTree = "<group>"; };
-		4AF3A2054072728529389F59DFD630BD /* Ext + UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext + UIFont.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext + UIFont.swift"; sourceTree = "<group>"; };
+		4AF3A2054072728529389F59DFD630BD /* Ext+UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext+UIFont.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext+UIFont.swift"; sourceTree = "<group>"; };
 		50AF08E89440FB61F761EF6D501CC31E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		54645FA96EAF2A7B6A36C5AB377C07C8 /* Pods-BaseTableViewKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseTableViewKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58E26DEA8BCCE6A2F405042034804FDA /* DifferentiableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DifferentiableSection.swift; path = Sources/DifferentiableSection.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		A6DD39A7528F1812ED6CEF99334A5593 /* DifferenceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DifferenceKit-prefix.pch"; sourceTree = "<group>"; };
 		A71CA4D1DDA0048946E1CC8AA51D6A80 /* ElementPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementPath.swift; path = Sources/ElementPath.swift; sourceTree = "<group>"; };
 		A9724CDD0BE7D2AD5F6B3570009F29D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AA16057181ABA083012F683C96A797F1 /* Ext + Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext + Bundle.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext + Bundle.swift"; sourceTree = "<group>"; };
+		AA16057181ABA083012F683C96A797F1 /* Ext+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ext+Bundle.swift"; path = "BaseTableViewKit/Classes/Extensions/Ext+Bundle.swift"; sourceTree = "<group>"; };
 		ABB83C5905567A7E11EECA4F3D036C7A /* Pods-BaseTableViewKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaseTableViewKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		AFEC737DE6CEFF978889F7F45E0940C6 /* Pods-BaseTableViewKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseTableViewKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4AB30B1E229BE787F4657B7D8509236 /* ContentEquatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentEquatable.swift; path = Sources/ContentEquatable.swift; sourceTree = "<group>"; };
@@ -440,10 +440,10 @@
 		D6D53726FE1BD0E6DB8A9689A5540A14 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AA16057181ABA083012F683C96A797F1 /* Ext + Bundle.swift */,
-				4AF3A2054072728529389F59DFD630BD /* Ext + UIFont.swift */,
-				4A4A65A23AD4109CCD5F7EBFE8659823 /* Ext + UITableViewCell.swift */,
-				0B6F3BE7BEA4F68E5311C12128344622 /* Ext + UITableViewHeaderFooterView.swift */,
+				AA16057181ABA083012F683C96A797F1 /* Ext+Bundle.swift */,
+				4AF3A2054072728529389F59DFD630BD /* Ext+UIFont.swift */,
+				4A4A65A23AD4109CCD5F7EBFE8659823 /* Ext+UITableViewCell.swift */,
+				0B6F3BE7BEA4F68E5311C12128344622 /* Ext+UITableViewHeaderFooterView.swift */,
 				35EE618EEF985ACACFD36B501B8154FD /* SafeIndex.swift */,
 			);
 			name = Extensions;
@@ -725,10 +725,10 @@
 				0655F47F8B66A55D5F3F5C8401A9E882 /* BaseTableViewKit-dummy.m in Sources */,
 				599EF0C95BE612077DE752AC046B0A0D /* CellData.swift in Sources */,
 				6B4501DC8DD2D6527E94EBE971CF5A12 /* ErrorDataProtocol.swift in Sources */,
-				7D1CCA0C3105686BA65BE6DBA5D36F01 /* Ext + Bundle.swift in Sources */,
-				C5D0911FAB8E322567CE31BB2EB16187 /* Ext + UIFont.swift in Sources */,
-				303118E508443F58552BFD301C15B182 /* Ext + UITableViewCell.swift in Sources */,
-				E1824415956009A672557D7284898039 /* Ext + UITableViewHeaderFooterView.swift in Sources */,
+				7D1CCA0C3105686BA65BE6DBA5D36F01 /* Ext+Bundle.swift in Sources */,
+				C5D0911FAB8E322567CE31BB2EB16187 /* Ext+UIFont.swift in Sources */,
+				303118E508443F58552BFD301C15B182 /* Ext+UITableViewCell.swift in Sources */,
+				E1824415956009A672557D7284898039 /* Ext+UITableViewHeaderFooterView.swift in Sources */,
 				23E62FE776E373E2FD0B1DD65C624EE0 /* LoadingProtocol.swift in Sources */,
 				E5C9F13896E86BEB4D9B68C306670230 /* SafeIndex.swift in Sources */,
 				2D173C97D4E971CE7B87E369E9B98322 /* SectionData.swift in Sources */,

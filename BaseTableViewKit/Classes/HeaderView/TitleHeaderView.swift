@@ -9,17 +9,16 @@ import UIKit
 
 public protocol _TitleHeaderView {
 
-    var title: String { get set }
-    var style: HeaderTitleStyle { get set }
-    var backgroundColor: UIColor { get set }
-    var isInsetGrouped: Bool { get set }
+    var title: String { get }
+    var style: HeaderTitleStyle { get }
+    var backgroundColor: UIColor { get }
+    var isInsetGrouped: Bool { get }
 }
 
 class TitleHeaderView: UITableViewHeaderFooterView {
-    @IBOutlet private weak var leftLabelConstaint: NSLayoutConstraint!
     
+    @IBOutlet private weak var leftLabelConstaint: NSLayoutConstraint!
     @IBOutlet private weak var backView: UIView!
-
     @IBOutlet private weak var mainTitleLabel: UILabel!
 
     func configure(_ data: _TitleHeaderView) {

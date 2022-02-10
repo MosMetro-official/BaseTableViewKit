@@ -11,32 +11,42 @@ import BaseTableViewKit
 
 class MainView: UIView {
     
+    private var tableView: BaseTableView!
+    
     struct ViewState {
         
+        var state: [State]
+        
         struct Row: _StandartImage {
-            var title      : String
-            var leftImage  : UIImage?
-            var separator  : Bool
-            let onSelect   : () -> ()
-            var backgroundColor: UIColor?
+            let title: String
+            let leftImage: UIImage?
+            let separator: Bool
+            let onSelect: () -> ()
+            let backgroundColor: UIColor?
         }
         
         struct Header: _TitleHeaderView {
-            var title: String
-            var style: HeaderTitleStyle
-            var backgroundColor: UIColor
-            var isInsetGrouped: Bool
+            let title: String
+            let style: HeaderTitleStyle
+            let backgroundColor: UIColor
+            let isInsetGrouped: Bool
         }
         
         struct Footer: _BaseFooterView {
-            var text: String
-            var attributedText: NSAttributedString?
-            var isInsetGrouped: Bool
+            let text: String
+            let attributedText: NSAttributedString?
+            let isInsetGrouped: Bool
         }
     }
     
-    var table: BaseTableView!
-    
+    public var viewState: ViewState = ViewState(state: []) {
+        didSet {
+            DispatchQueue.main.async {
+                self.tableView.viewStateInput = self.viewState.state
+            }
+        }
+    }
+        
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupTableView()
@@ -48,16 +58,15 @@ class MainView: UIView {
     }
     
     private func setupTableView() {
-        table = BaseTableView(frame: .zero, style: .grouped)
-        table.sectionHeaderHeight = 44
-        table.translatesAutoresizingMaskIntoConstraints = false
-        self.addSubview(table)
+        tableView = BaseTableView(frame: .zero, style: .grouped)
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(tableView)
 
         NSLayoutConstraint.activate([
-            table.topAnchor.constraint(equalTo: topAnchor),
-            table.leadingAnchor.constraint(equalTo: leadingAnchor),
-            table.trailingAnchor.constraint(equalTo: trailingAnchor),
-            table.bottomAnchor.constraint(equalTo: bottomAnchor)
+            tableView.topAnchor.constraint(equalTo: topAnchor),
+            tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            tableView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }
 }

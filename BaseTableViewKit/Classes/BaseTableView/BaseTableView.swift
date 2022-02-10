@@ -7,11 +7,11 @@
 
 import DifferenceKit
 
+public typealias MenuData = (tableView: UITableView, indexPath: IndexPath, point: CGPoint, element: Any)
 public typealias TableData = (tableView: UITableView, indexPath: IndexPath, element: Any)
+public typealias HeaderData = (tableView: UITableView, section: Int)
 public typealias CellDisplayData = (tableView: UITableView, cell: UITableViewCell, indexPath: IndexPath, element: Any)
 public typealias CellWillDisplayData = (tableView: UITableView, cell: UITableViewCell, indexPath: IndexPath)
-public typealias HeaderData = (tableView: UITableView, section: Int)
-public typealias MenuData = (tableView: UITableView, indexPath: IndexPath, point: CGPoint, element: Any)
 
 public class BaseTableView: UITableView {
     
@@ -125,8 +125,8 @@ extension BaseTableView: UITableViewDelegate {
         guard let header = self.viewState[section].model.header else { return nil }
         switch header {
         case is _TitleHeaderView:
-            let data = header as! _TitleHeaderView
-            guard let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: TitleHeaderView.identifire) as? TitleHeaderView else { return .init() }
+            guard let data = header as? _TitleHeaderView,
+                  let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: TitleHeaderView.identifire) as? TitleHeaderView else { return .init() }
             headerView.configure(data)
             return headerView
         default:
@@ -139,8 +139,8 @@ extension BaseTableView: UITableViewDelegate {
         guard let footer = self.viewState[section].model.footer else { return nil }
         switch footer {
         case is _BaseFooterView:
-            let data = footer as! _BaseFooterView
-            guard let footerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: BaseFooterView.identifire) as? BaseFooterView else { return .init() }
+            guard let data = footer as? _BaseFooterView,
+                  let footerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: BaseFooterView.identifire) as? BaseFooterView else { return .init() }
             footerView.configure(data)
             return footerView
         default:

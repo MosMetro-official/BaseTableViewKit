@@ -9,11 +9,11 @@ import DifferenceKit
 
 public typealias State = ArraySection<SectionState, Element>
 
-public struct Element : ContentEquatable, ContentIdentifiable {
+public struct Element: ContentEquatable, ContentIdentifiable {
     
-    var id : Int = Int.random(in: 0..<1000000)
+    var id: Int = Int.random(in: 0..<1000000)
     
-    var content : CellData
+    var content: CellData
     
     public init(content: CellData) {
         self.content = content
@@ -69,51 +69,3 @@ public enum HeaderTitleStyle {
         }
     }
 }
-
-//protocol Header {
-//
-//    var title: String { get set }
-//    var attributedTitle: NSAttributedString? { get set }
-//    var titleStyle: HeaderTitleStyle { get set }
-//    var edgeInset: CGFloat { get set }
-//}
-//
-//struct DefaultHeader: Header {
-//    var edgeInset: CGFloat
-//
-//    var title: String
-//
-//    var attributedTitle: NSAttributedString?
-//
-//    var titleStyle: HeaderTitleStyle
-//
-//}
-//
-//struct ButtonHeader: Header {
-//    var edgeInset: CGFloat
-//
-//    var title: String
-//
-//    var attributedTitle: NSAttributedString?
-//
-//    var titleStyle: HeaderTitleStyle
-//
-//    var buttonImage: UIImage
-//
-//    var onSelect: () -> ()
-//}
-//
-//struct CollapsibleHeader: Header {
-//    var edgeInset: CGFloat
-//
-//    var title: String
-//
-//    var attributedTitle: NSAttributedString?
-//
-//    var titleStyle: HeaderTitleStyle
-//
-//    var isExpanded: Bool
-//
-//    var onSelect: () -> ()
-//}
-
