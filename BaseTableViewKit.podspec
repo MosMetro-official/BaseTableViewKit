@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.name             = 'BaseTableViewKit'
     s.version          = '0.1.0'
     s.summary          = 'A short description of BaseTableViewKit.'
-    s.swift_version    = '5.4'
+    s.swift_version    = ['4.2', '5.4']
     s.requires_arc     = true
     
     s.description      = <<-DESC
@@ -22,19 +22,15 @@ Pod::Spec.new do |s|
     s.author           = { 'viacheslavplatonov' => 'slava.p12@yandex.ru' }
     s.source           = { :git => 'https://github.com/MosMetro-official/BaseTableViewKit', :tag => s.version.to_s }
     
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '11.0'
     
     s.source_files = 'BaseTableViewKit/Classes/*.swift'
     s.resource_bundles = {
-        'BaseTableViewKit' => ['BaseTableViewKit/**/*.{xib,storyboard,xcassets}'] }
-    #s.default_subspecs = '', ''
-    
-    
-    
+        'BaseTableViewKit' => ['BaseTableViewKit/**/*.{xib,storyboard,xcassets}']
+    }
     
     s.frameworks = 'UIKit'
     s.dependency 'DifferenceKit'
-
 
     s.subspec 'BaseTableView' do |s|
         s.source_files = 'BaseTableViewKit/Classes/BaseTableView/*'
