@@ -121,7 +121,6 @@ class ViewController: UIViewController {
         
         self.nestedView.viewState.state = [firstBlock, secondBlock, thirdBlock]
     }
-
 }
 
 

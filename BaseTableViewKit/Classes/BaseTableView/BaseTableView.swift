@@ -17,9 +17,7 @@ public class BaseTableView: UITableView {
     
     struct Error: _ErrorData {
         var title: String
-        
         var descr: String
-        
         var onRetry: (() -> ())?
     }
     

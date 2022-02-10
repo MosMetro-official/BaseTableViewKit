@@ -59,5 +59,4 @@ class StandartImageCell : UITableViewCell {
             self.backgroundColor = bgColor
         }
     }
-    
 }
