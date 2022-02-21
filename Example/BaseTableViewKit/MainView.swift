@@ -18,11 +18,23 @@ class MainView: UIView {
         var state: [State]
         
         struct Row: _StandartImage {
-            let title: String
-            let leftImage: UIImage?
-            let separator: Bool
-            let onSelect: () -> ()
-            let backgroundColor: UIColor?
+            
+            
+            var title: String
+            
+            var leftImage: UIImage?
+            
+            var separator: Bool
+            
+            var backgroundColor: UIColor?
+            
+            var tintColor: UIColor
+            
+            var accessoryView: UIView?
+            
+            var onSelect: () -> ()
+            
+            
         }
         
         struct Header: _TitleHeaderView {

@@ -15,11 +15,23 @@ public protocol _StandartImage: CellData {
 }
 
 extension _StandartImage {
-    var backgroundColor: UIColor? { return nil }
+    
+    public var height: CGFloat { return 44 } 
+    
+    public func hashValues() -> [Int] {
+        return [title.hashValue,leftImage.hashValue,separator.hashValue]
+    }
+    
+    public var backgroundColor: UIColor? { return nil }
+    
+    public func prepare(cell: UITableViewCell, for tableView: UITableView, indexPath: IndexPath) {
+        guard let cell = cell as? StandartImageCell else { return }
+        cell.configure(with: self)
+    }
     
     public func cell(for tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
+        tableView.register(StandartImageCell.nib, forCellReuseIdentifier: StandartImageCell.identifire)
         guard let cell = tableView.dequeueReusableCell(withIdentifier: StandartImageCell.identifire, for: indexPath) as? StandartImageCell else { return .init() }
-        cell.configure(with: self)
         return cell
     }
 }
