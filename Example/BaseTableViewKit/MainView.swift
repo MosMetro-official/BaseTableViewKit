@@ -30,7 +30,7 @@ class MainView: UIView {
             
             var tintColor: UIColor
             
-            var accessoryView: UIView?
+            var accesoryType: UITableViewCell.AccessoryType?
             
             var onSelect: () -> ()
             
@@ -38,17 +38,19 @@ class MainView: UIView {
         }
         
         struct Header: _TitleHeaderView {
-            let title: String
-            let style: HeaderTitleStyle
-            let backgroundColor: UIColor
-            let isInsetGrouped: Bool
+            var title: String
+            
+            var style: TitleHeaderView.Style
+            
+            var backgroundColor: UIColor
+            
+            var isInsetGrouped: Bool
+            
+            var height: CGFloat
+            
         }
         
-        struct Footer: _BaseFooterView {
-            let text: String
-            let attributedText: NSAttributedString?
-            let isInsetGrouped: Bool
-        }
+        
     }
     
     public var viewState: ViewState = ViewState(state: []) {

@@ -12,115 +12,160 @@ import BaseTableViewKit
 class ViewController: UIViewController {
 
     private let nestedView = MainView(frame: UIScreen.main.bounds)
+    
+    var counter = 0 {
+        didSet {
+            makeState()
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view = nestedView
         makeState()
+        navigationItem.rightBarButtonItems  = [UIBarButtonItem(barButtonSystemItem: .redo, target: self, action: #selector(handleRemove)), UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(handleAdd))]
+    }
+    
+    @objc private func handleAdd() {
+        let addedRow = MainView.ViewState.Row(
+            title: "Here is added rows",
+            leftImage: UIImage.init(systemName: "questionmark.square"),
+            separator: true,
+            backgroundColor: .clear,
+            tintColor: .blue,
+            accesoryType: nil,
+            onSelect: { print("selected added row of third section") })
+            .toElement()
+        let addedSectionHeader = MainView.ViewState.Header(
+            title: "added section",
+            style: .small,
+            backgroundColor: .clear,
+            isInsetGrouped: true,
+            height: 44)
+        let addedSection = SectionState(header: addedSectionHeader, footer: nil)
+        let addedBlock = State(model: addedSection, elements:  [addedRow])
+        
+        
+        self.nestedView.viewState.state.append(addedBlock)
+    }
+    
+    @objc private func handleRemove() {
+        if !self.nestedView.viewState.state.isEmpty {
+            self.nestedView.viewState.state.removeLast()
+        }
+       
+        
     }
 
     private func makeState() {
+        
+        // declare rows
         let firstRowOfFirstSection = MainView.ViewState.Row(
             title: "First row of first section",
             leftImage: UIImage(systemName: "bag"),
             separator: true,
-            onSelect: {
-            print("selected first row of first section")
-        },
-            backgroundColor: .clear
-        )
+            backgroundColor: .clear,
+            tintColor: .blue,
+            accesoryType: nil,
+            onSelect: { print("selected first row of first section") })
+            .toElement()
         
+      
         let secondRowOfFirstSection = MainView.ViewState.Row(
             title: "Second row of first section",
             leftImage: UIImage(systemName: "creditcard"),
             separator: true,
-            onSelect: {
-                print("selected second row of first section")
-            },
-            backgroundColor: .clear
-        )
+            backgroundColor: .clear,
+            tintColor: .blue,
+            accesoryType: nil,
+            onSelect: { print("selected second row of first section") })
+            .toElement()
         
         let thirdRowOfFirstSection = MainView.ViewState.Row(
             title: "Third row of first section",
             leftImage: UIImage(systemName: "banknote"),
             separator: true,
-            onSelect: {
-                print("selected third row of first section")
-            },
-            backgroundColor: .clear
-        )
-        
-        let firstSectionHeader = MainView.ViewState.Header(
-            title: "First section",
-            style: .medium,
             backgroundColor: .clear,
-            isInsetGrouped: false
-        )
-
+            tintColor: .blue,
+            accesoryType: nil,
+            onSelect: { print("selected third row of first section") })
+            .toElement()
+        
+   
+        // declare header if needed
+        let firstSectionHeader = MainView.ViewState.Header(
+            title: "Header",
+            style: .large,
+            backgroundColor: .clear,
+            isInsetGrouped: true,
+            height: 44)
+        
+        // declare section data with header and footer
         let firstSection = SectionState(header: firstSectionHeader, footer: nil)
-        let firstSectionElements: [Element] = [firstRowOfFirstSection, secondRowOfFirstSection, thirdRowOfFirstSection].map { Element(content: $0) }
-        let firstBlock = State(model: firstSection, elements: firstSectionElements)
+        
+        // create block with section data and elements
+        let firstBlock = State(model: firstSection, elements: [firstRowOfFirstSection,secondRowOfFirstSection,thirdRowOfFirstSection])
 
+        
+        
         let firstRowOfSecondSection = MainView.ViewState.Row(
             title: "First row of second section",
-            leftImage: UIImage.init(systemName: "heart.text.square"),
+            leftImage: UIImage(systemName: "heart.text.square"),
             separator: true,
-            onSelect: {
-                print("selected first row of second section")
-            },
-            backgroundColor: .clear
-        )
-
+            backgroundColor: .clear,
+            tintColor: .blue,
+            accesoryType: .disclosureIndicator,
+            onSelect: { print("selected row 1 of section 2") })
+            .toElement()
+        
         let secondRowOfSecondSection = MainView.ViewState.Row(
-            title: "Second row of second section",
-            leftImage: UIImage.init(systemName: "bolt.heart"),
+            title: "First row of second section",
+            leftImage: UIImage(systemName: "bolt.heart"),
             separator: true,
-            onSelect: {
-                print("selected second row of second section")
-            },
-            backgroundColor: .clear
-        )
+            backgroundColor: .clear,
+            tintColor: .blue,
+            accesoryType: .detailDisclosureButton,
+            onSelect: { print("selected row 2 of section 2") })
+            .toElement()
+        
+
         
         let secondSectionHeader = MainView.ViewState.Header(
-            title: "Second section",
+            title: "Section 2",
             style: .medium,
             backgroundColor: .clear,
-            isInsetGrouped: false
-        )
+            isInsetGrouped: true,
+            height: 44)
         
         let secondSection = SectionState(header: secondSectionHeader, footer: nil)
-        let secondSectionElements: [Element] = [firstRowOfSecondSection, secondRowOfSecondSection].map { Element(content: $0) }
-        let secondBlock = State(model: secondSection, elements: secondSectionElements)
-
+        let secondBlock = State(model: secondSection, elements: [firstRowOfSecondSection,secondRowOfSecondSection])
+        
         let firstRowOfThirdSection = MainView.ViewState.Row(
             title: "First row of third section",
             leftImage: UIImage.init(systemName: "questionmark.square"),
             separator: true,
-            onSelect: {
-            print("selected first row of third section")
-        },
-            backgroundColor: .clear
-        )
+            backgroundColor: .clear,
+            tintColor: .blue,
+            accesoryType: nil,
+            onSelect: { print("selected first row of third section") })
+            .toElement()
+        
                 
         let thirdSectionHeader = MainView.ViewState.Header(
-            title: "Third section",
-            style: .medium,
+            title: "third section",
+            style: .small,
             backgroundColor: .clear,
-            isInsetGrouped: false
-        )
+            isInsetGrouped: true,
+            height: 44)
         
-        let thirdSectionFooter = MainView.ViewState.Footer(
-            text: "🔥 FOOTER 🔥",
-            attributedText: nil,
-            isInsetGrouped: true
-        )
+       
 
-        let thirdSection = SectionState(header: thirdSectionHeader, footer: thirdSectionFooter)
-        let thirdSectionElements = Element(content: firstRowOfThirdSection)
-        let thirdBlock = State(model: thirdSection, elements: [thirdSectionElements])
+        let thirdSection = SectionState(header: thirdSectionHeader, footer: nil)
+        let thirdBlock = State(model: thirdSection, elements: [firstRowOfThirdSection])
         
-        self.nestedView.viewState.state = [firstBlock, secondBlock, thirdBlock]
+        self.nestedView.viewState.state = [firstBlock,secondBlock,thirdBlock]
     }
 }
+
 
 

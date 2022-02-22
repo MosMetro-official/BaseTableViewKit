@@ -18,6 +18,8 @@
 		366987990E59050DDCEC2D5AFA84A869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		38B3E9CC64A333A482689210AC5344AD /* DifferenceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A64A24172E9F184C43D6BA09E1AF0AB /* DifferenceKit-dummy.m */; };
 		422B27B0FF17B426C66C9EDF67CC6F7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		4400D52027C4D07900CDE28E /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4400D51F27C4D07900CDE28E /* HeaderData.swift */; };
+		4400D52227C4D0B700CDE28E /* FooterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4400D52127C4D0B700CDE28E /* FooterData.swift */; };
 		4BA1EBF93FC7F86679DCF0A92F6A4118 /* ArraySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF7607AAA151CF99463A009E9F1F057 /* ArraySection.swift */; };
 		546DE27DC61DCCA4C6AF525F1DDA7308 /* BaseTableViewKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B69F3BDA6D4B7DFCBCEA939D76B42052 /* BaseTableViewKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		599EF0C95BE612077DE752AC046B0A0D /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF8A06704B5CA3D6FAD55854F266ACD /* CellData.swift */; };
@@ -107,6 +109,8 @@
 		3AF6E4B424A821CF44828284F2C4799B /* DifferenceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DifferenceKit.debug.xcconfig; sourceTree = "<group>"; };
 		3FF7607AAA151CF99463A009E9F1F057 /* ArraySection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArraySection.swift; path = Sources/ArraySection.swift; sourceTree = "<group>"; };
 		42CD98D37955A74E9DABBC53D34B7300 /* Pods-BaseTableViewKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaseTableViewKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4400D51F27C4D07900CDE28E /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		4400D52127C4D0B700CDE28E /* FooterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterData.swift; sourceTree = "<group>"; };
 		44A05FDFBCBBD3DBDEB7C574866DB837 /* BaseTableViewKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseTableViewKit-dummy.m"; sourceTree = "<group>"; };
 		46AEFDF4107F824305D5BC0259479970 /* Pods-BaseTableViewKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseTableViewKit_Example-Info.plist"; sourceTree = "<group>"; };
 		48D0A3B0FCF8190ACDBBD3EC3C1AF86C /* Pods-BaseTableViewKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseTableViewKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -288,6 +292,8 @@
 			children = (
 				7AF8A06704B5CA3D6FAD55854F266ACD /* CellData.swift */,
 				8623D1997A61D4145064119B7735D1D8 /* SectionData.swift */,
+				4400D51F27C4D07900CDE28E /* HeaderData.swift */,
+				4400D52127C4D0B700CDE28E /* FooterData.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -734,7 +740,9 @@
 				2D173C97D4E971CE7B87E369E9B98322 /* SectionData.swift in Sources */,
 				EACA77EF6684F2423860F65F4C6BD3A8 /* StandartImageCell.swift in Sources */,
 				B68C8B99D617115B02536190010472AC /* StandartImageCell.xib in Sources */,
+				4400D52227C4D0B700CDE28E /* FooterData.swift in Sources */,
 				C7B237E8E75D7A3D785F82ED031BB14B /* TitleHeaderView.swift in Sources */,
+				4400D52027C4D07900CDE28E /* HeaderData.swift in Sources */,
 				28646BF8BF50318D7F2831BEF0A845A7 /* TitleHeaderView.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

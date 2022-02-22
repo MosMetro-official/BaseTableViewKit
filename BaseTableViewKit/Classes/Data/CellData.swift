@@ -66,4 +66,8 @@ extension CellData {
     public func menu(for tableView: UITableView, indexPath: IndexPath, point: CGPoint) -> UIContextMenuConfiguration? {
         return nil
     }
+    
+    public func toElement() -> Element {
+        return Element(content: self)
+    }
 }

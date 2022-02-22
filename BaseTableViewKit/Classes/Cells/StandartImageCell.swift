@@ -12,11 +12,12 @@ public protocol _StandartImage: CellData {
     var leftImage : UIImage? { get }
     var separator : Bool     { get }
     var backgroundColor: UIColor? { get }
+
 }
 
 extension _StandartImage {
     
-    public var height: CGFloat { return 44 } 
+    public var height: CGFloat { return 50 } 
     
     public func hashValues() -> [Int] {
         return [title.hashValue,leftImage.hashValue,separator.hashValue]

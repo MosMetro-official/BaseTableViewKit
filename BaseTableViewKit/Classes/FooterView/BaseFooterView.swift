@@ -7,11 +7,13 @@
 
 import UIKit
 
-public protocol _BaseFooterView {
+public protocol _BaseFooterView: FooterData {
     var text: String { get }
     var attributedText: NSAttributedString? { get }
     var isInsetGrouped: Bool { get }
 }
+
+
 
 class BaseFooterView: UITableViewHeaderFooterView {
 

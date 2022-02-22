@@ -9,9 +9,24 @@ import DifferenceKit
 
 public typealias State = ArraySection<SectionState, Element>
 
-public struct Element: ContentEquatable, ContentIdentifiable {
+public struct Element: ContentEquatable, ContentIdentifiable, Hashable {
     
-    var id: Int = Int.random(in: 0..<1000000)
+    public static func == (lhs: Element, rhs: Element) -> Bool {
+        return lhs.hashValue == rhs.hashValue
+    }
+    
+    public func hash(into hasher: inout Hasher) {
+        let hashValues = content.hashValues()
+        hashValues.forEach { value in
+            hasher.combine(value)
+        }
+    }
+    
+    
+    var id : Int {
+        print("Hash value for \(hashValue)")
+        return hashValue
+    }
     
     var content: CellData
     
@@ -28,44 +43,38 @@ public struct Element: ContentEquatable, ContentIdentifiable {
     }
 }
 
-public struct SectionState : Differentiable, Equatable {
+public struct SectionState : Differentiable, Equatable, Hashable {
     
     public static func == (lhs: SectionState, rhs: SectionState) -> Bool {
-        return lhs.id == rhs.id
+        return lhs.differenceIdentifier == rhs.differenceIdentifier
     }
     
-    var id: Int = Int.random(in: 0..<1000000)
+    public func hash(into hasher: inout Hasher) {
+        let headerHash = header?.hashValues() ?? [Int.random(in: 0..<1000000)]
+        let footerHash = footer?.hashValues() ?? [Int.random(in: 0..<1000000)]
+        headerHash.forEach { value in
+            hasher.combine(value)
+        }
+        footerHash.forEach { value in
+            hasher.combine(value)
+        }
+        
+    }
     
     var isCollapsed = false
     
     public var differenceIdentifier: Int {
-        return id
+        return hashValue
     }
     
-    var header: Any?
-    var footer: Any?
+    var header: HeaderData?
+    var footer: FooterData?
     
-    public init(id: Int = Int.random(in: 0..<1000000), isCollapsed: Bool = false, header: Any?, footer: Any?) {
-        self.id = id
+    public init(isCollapsed: Bool = false, header: HeaderData?, footer: FooterData?) {
         self.isCollapsed = isCollapsed
         self.footer = footer
         self.header = header
     }
 }
 
-public enum HeaderTitleStyle {
-    case small
-    case medium
-    case large
-    
-    func font() -> UIFont {
-        switch self {
-        case .small:
-            return .Body_13_Bold
-        case .medium:
-            return .Body_15_Bold
-        case .large:
-            return .Headline_2
-        }
-    }
-}
+
